@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainApp{
+    width:100%;
+    height: 100vh;
+    overflow:hidden;
+
+    /* background-color:rgba(5, 5, 5, 0.801); */
+
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+.form-control{
+    box-shadow: none!important;
+}
+body
+{
+    
+    background-image:linear-gradient(rgb(8, 8, 8),rgba(0,0,0,0.4)), url(../images/medical-5051153_1920-768x512.jpg);
+    background-size: cover;
+   background-attachment: fixed;
+   background-position:center center;
+    background-repeat: no-repeat;
+}
+.cases
+{
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 400px;
+}
+.heading
+{
+    color:#fff;
+    font-size: 34px;
+    text-shadow:0px 0px 22px blue,0px 0px 22px rgb(189, 59, 102);
+}
+.sub{
+    color: #fff;
+    font-size: 22px;
+}
+/* card */
+.card{
+    height:30vh!important;
+}
+
+
+
+.numbersApi
+{
+    font-size: 25px;
+}
+
+.headingApi
+{
+    font-size: 30px;
+}
+/* card1 */
+.card1
+{
+    background:rgba(85, 38, 216, 0.514);
+    color:#ffff;
+}
+/* card2 */
+.card2
+{
+    background:rgba(216, 38, 38, 0.514);
+    color:#ffff;
+}
+.card3{
+    background:rgba(38, 216, 97, 0.514);
+    color:#ffff;
+}
+.card4{
+    background:rgba(216, 38, 148, 0.514);
+    color:#ffff;
+}
+.card5{
+    background:rgba(216, 198, 38, 0.514);
+    color:#ffff;
+}
+.card6{
+    background:rgba(50, 5, 59, 0.514);
+    color:#ffff;
+}
+.cardx{
+    background:rgba(13, 109, 138, 0.514);
+    color:#ffff;
+}
+.cardc{
+    background:rgba(39, 13, 21, 0.514);
+    color:#ffff;
+}
+.card{
+    box-shadow:10px 2px 5px  1px rgba(15, 15, 15, 0.658)
+}
